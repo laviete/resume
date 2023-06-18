@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-weight: normal;
+    font-size: medium;
+}
+header {
+    text-align: center;
+}
+.image {
+    border-radius:50%;
+    width: 120px;
+    height: 120px;
+}
+address{
+    margin-bottom: 20px;
+    font-style: normal;
+}
+a[href^="tel:"] {
+    text-decoration: none;
+    color: #000000;
+}
+a[href^="malito:"] {
+    text-decoration: none;
+    color: #000000;
+}
+.border {
+    border-top: 2px rgb(0, 0, 0) inset;
+    border-bottom: 2px rgb(0, 0, 0) inset;
+}
+.description {
+    font-weight: 300;
+    color: dimgrey;
+}
